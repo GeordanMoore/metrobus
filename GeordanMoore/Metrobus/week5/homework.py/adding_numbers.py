@@ -2,7 +2,7 @@ import sys
 
 def add_them_all(filename):
     sum = 0
-    f = open('a.txt', 'r')
+    f = open(filename, 'r')
     line = f.readlines()
     line.split(",")
     for line in f:
